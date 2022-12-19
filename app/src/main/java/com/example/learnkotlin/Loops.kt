@@ -21,11 +21,20 @@ fun main() {
 //        // code block to be executed
 //    }
 //    while (condition);
-    var i = 0
-    do {
-        println(i)
-        i++
+//    var i = 0
+//    do {
+//        println(i)
+//        i++
+//    }
+//    while (i < 5)
+
+    var repeat  = 0
+    while (repeat < 5){
+        println("Eat")
+        println("Code")
+        println("Sleep")
+        println("Repeat")
+        repeat
     }
-    while (i < 5)
 
 }
